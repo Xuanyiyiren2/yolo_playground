@@ -269,7 +269,7 @@ def visualize_yolo_logs(log_dir, setname='train'):
     # 定义需要可视化的图片文件名
     log_images = {
         "results.png": "results.png",
-        "PR_curve.png": "PR_curve.png",
+        "BoxPR_curve.png": "BoxPR_curve.png",
         "confusion_matrix.png": "confusion_matrix.png"
     }
     if setname == 'val':
