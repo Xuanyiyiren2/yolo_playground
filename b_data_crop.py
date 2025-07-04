@@ -13,7 +13,7 @@ BASE_DIR = os.path.dirname(__file__)
 
 if __name__ == '__main__':
 
-    data_dir = r"G:\deep_learning_data\DOTAv1\DOTA-sub"  # 上一步获取得到的数据目录
+    data_dir = r"./DOTAv1/DOTA-sub"  # 上一步获取得到的数据目录
     out_dir = os.path.join(os.path.dirname(data_dir), 'DOTA-sub-split')
 
     # 对数据集图片进行切块处理，“降低”图片分辨率

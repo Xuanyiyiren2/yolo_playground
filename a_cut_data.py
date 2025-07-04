@@ -55,7 +55,7 @@ def cut_data(data_dir, out_dir, setname='train'):
 if __name__ == '__main__':
     # 原始数据路径
     # 下载链接：https://github.com/ultralytics/assets/releases/download/v0.0.0/DOTAv1.zip)
-    data_dir = r"G:\deep_learning_data\DOTAv1"
+    data_dir = r"./DOTAv1"
     out_dir = os.path.join(data_dir, "DOTA-sub")  # 输出目录
 
     # 需要保留的类别及其新映射

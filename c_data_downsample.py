@@ -15,7 +15,7 @@ random.seed(42)
 
 if __name__ == '__main__':
 
-    data_root = r"G:\deep_learning_data\DOTAv1\DOTA-sub-split"
+    data_root = r"./DOTAv1/DOTA-sub-split"
     new_data_root = data_root + '-downsample'
     if os.path.exists(new_data_root):
         shutil.rmtree(new_data_root)

@@ -89,8 +89,8 @@ if __name__ == '__main__':
     # 设置数据集路径
     # https://github.com/ultralytics/assets/releases/download/v0.0.0/DOTAv1.zip
 
-    images_dir = r'G:\deep_learning_data\DOTAv1\DOTA-sub-split\images\train'  # 图片路径
-    labels_dir = r'G:\deep_learning_data\DOTAv1\DOTA-sub-split\labels\train'  # 标签路径
+    images_dir = r'./DOTAv1/DOTA-sub-split/images/train'  # 图片路径
+    labels_dir = r'./DOTAv1/DOTA-sub-split/labels/train'  # 标签路径
 
     # 可视化随机N张图像
     visualize_random_images(images_dir, labels_dir, num_images=4)
