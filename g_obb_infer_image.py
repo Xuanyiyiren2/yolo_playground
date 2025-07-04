@@ -14,7 +14,7 @@ BASE_DIR = os.path.dirname(__file__)
 if __name__ == '__main__':
 
     # weights_path = os.path.join(BASE_DIR, 'weights', 'yolo11m-obb.pt')  # 模型
-    weights_path = os.path.join(BASE_DIR, 'runs', 'obb', 'train6', 'weights', 'best.pt')  # 模型
+    weights_path = os.path.join(BASE_DIR, 'runs', 'obb', 'train', 'weights', 'best.pt')  # 模型
     image_path = r"./DOTAv1/DOTA-sub-split-downsample/images/val/P2231__640__590___1180.jpg"
 
     # ========================== step1: 初始化YOLO对象 ==========================

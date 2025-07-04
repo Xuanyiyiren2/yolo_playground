@@ -49,7 +49,7 @@ def cut_data(data_dir, out_dir, setname='train'):
             shutil.copy(original_image_path, new_image_path)
             counter += 1
 
-    print("筛选和映射完成！获得{}张图片，位于:{}".format(counter, out_dir))
+    print(f"{setname}: 筛选和映射完成！获得{counter}张图片，位于:{out_dir}")
 
 
 if __name__ == '__main__':

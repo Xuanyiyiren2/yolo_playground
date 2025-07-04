@@ -13,7 +13,7 @@ BASE_DIR = os.path.dirname(__file__)
 
 if __name__ == '__main__':
     dataset_path = os.path.join(BASE_DIR, 'cfg', 'DOTAv1-sub.yaml')  # 数据集
-    weights_path = os.path.join(BASE_DIR, 'runs', 'obb', 'train8', 'weights', 'best.pt')  # 模型
+    weights_path = os.path.join(BASE_DIR, 'runs', 'obb', 'train', 'weights', 'best.pt')  # 模型
 
     # ========================== step1: 初始化YOLO对象 ==========================
     model = YOLO(weights_path)
